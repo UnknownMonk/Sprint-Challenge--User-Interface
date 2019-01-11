@@ -319,3 +319,7 @@ button:hover {
   background: black;
   color: white;
 }
+
+section.about-bottom-content {
+  padding: 30px;
+}
