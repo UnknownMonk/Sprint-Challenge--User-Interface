@@ -148,6 +148,10 @@ h5 {
   font-family: 'Rubik', sans-serif;
 }
 
+h2 {
+  font-size: 18px;
+}
+
 p {
   line-height: 1.4;
 }
@@ -157,11 +161,14 @@ p {
   margin: 0 auto;
 }
 
-header nav {
+header .header-content {
   margin: 30px 0;
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
+}
+
+nav a {
+  margin: 0 50px;
 }
 
 nav a {
@@ -273,3 +280,5 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* ABOUT PAGE */
