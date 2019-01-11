@@ -318,6 +318,17 @@ button {
 button:hover {
   background: black;
   color: white;
+  animation-name: change;
+  animation-duration: 3s;
+}
+@keyframes change {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: black;
+  }
 }
 
 section.about-bottom-content {
